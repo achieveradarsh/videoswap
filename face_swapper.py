@@ -3,7 +3,6 @@ import cv2
 import copy
 import numpy as np
 from PIL import Image
-!pip install insightface onnxruntime 
 import insightface
 import onnxruntime
 import requests
