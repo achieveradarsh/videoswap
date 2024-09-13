@@ -1,6 +1,6 @@
+opencv-python-headless
+numpy
+Pillow
 insightface
 onnxruntime
-opencv-python
-Pillow
-numpy
 requests
