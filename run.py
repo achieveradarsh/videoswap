@@ -12,7 +12,7 @@ def main():
     output_video_path = "output_video.mp4"
 
     # Define the model URL
-    model_url = "https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128_fp16.onnx"
+    model_url = "https://huggingface.co/ezioruan/inswapper_128.onnx/resolve/main/inswapper_128.onnx"
     model_path = download_model(model_url, "./checkpoints/model.onnx")
 
     # Run the face swapping process
